@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.body__banner{
+    width: 100%;
+    min-height: 751px;
+    background-color: #fff;
+}
+
+.body__banner img{
+    width: 100%;
+    height: auto;
+}
+
+.body__banner--slogan{
+    position: absolute;
+    font-size: 3rem;
+    color:yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.body__gallery{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+}
+
+.body__gallery--title{
+    width: 100%;
+    min-height: 140px;
+    position: relative;
+    font-size: 1.5rem;
+    background-color: #ecd5ac;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+
+.body__gallery--image{
+    width: 100%;
+    height: calc(100% - 140px);
+    text-align: center;
+}
+
+.body__gallery--image img{
+    display: inline-block;
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-right: 70px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 970px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.list-none {
+    list-style-type: none;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    min-height: 200px;
+    background-color:rgb(209, 209, 209);
+}
